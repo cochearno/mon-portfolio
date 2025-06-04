@@ -5,7 +5,11 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg bg-dark">
       <div className="container-fluid">
-        <Link className="navbar-brand" to="#">
+        <Link
+          className="navbar-brand"
+          style={{ textTransform: "uppercase" }}
+          to="#"
+        >
           John Doe
         </Link>
         <button
@@ -19,12 +23,12 @@ function Navbar() {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+        <div className="collapse navbar-collapse" id="navbarResponsive">
+          <ul className="navbar-nav ms-auto">
             <li className="nav-item">
               <Link
                 className="nav-link active"
-                style={{ color: "white", marginLeft: 1200 }}
+                style={{ color: "white", textTransform: "uppercase" }}
                 aria-current="page"
                 to="/Accueil"
               >
@@ -34,7 +38,7 @@ function Navbar() {
             <li className="nav-item">
               <Link
                 className="nav-link active"
-                style={{ color: "white" }}
+                style={{ color: "white", textTransform: "uppercase" }}
                 aria-current="page"
                 to="/Services"
               >
@@ -44,7 +48,7 @@ function Navbar() {
             <li className="nav-item">
               <Link
                 className="nav-link active"
-                style={{ color: "white" }}
+                style={{ color: "white", textTransform: "uppercase" }}
                 aria-current="page"
                 to="/Portfolio"
               >
@@ -54,7 +58,7 @@ function Navbar() {
             <li className="nav-item">
               <Link
                 className="nav-link active"
-                style={{ color: "white" }}
+                style={{ color: "white", textTransform: "uppercase" }}
                 aria-current="page"
                 to="/Contact"
               >
@@ -64,7 +68,7 @@ function Navbar() {
             <li className="nav-item">
               <Link
                 className="nav-link active"
-                style={{ color: "white" }}
+                style={{ color: "white", textTransform: "uppercase" }}
                 aria-current="page"
                 to="Mentions"
               >
