@@ -47,10 +47,11 @@ section {
   height: 100%;
   margin: auto;
   border-style: solid;
-  border-width: 1px;
+  border-width: 0;
   border-color: grey;
   border-radius: 2%;
-  box-shadow: 2px 2px 5px grey;
+  box-shadow: 4px 4px 9px lightgray;
+  margin-bottom: 50px;
 }
 .colonne {
   flex: 1;
@@ -104,4 +105,46 @@ h5 {
 }
 .html {
   margin-top: 25px;
+}
+.col-4 {
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.adress,
+.cp,
+.tel,
+.mail {
+  margin-bottom: 0;
+}
+
+.home,
+.services,
+.portfolio,
+.contact,
+.mentions {
+  margin-bottom: 0;
+}
+
+.fresh,
+.akira,
+.bienetre,
+.seo,
+.api,
+.maquette {
+  margin-bottom: 0;
+}
+.mail {
+  margin-bottom: 10px;
+}
+
+.fal :hover {
+  color: white;
+}
+.fag :hover {
+  color: white;
+}
+.fat :hover {
+  color: white;
 }

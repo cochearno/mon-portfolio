@@ -1,6 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./components/navbar";
+import Footer from "./components/footer";
 import Accueil from "./pages/accueil";
 import Services from "./pages/services";
 import Portfolio from "./pages/portfolio";
@@ -18,6 +20,7 @@ function App() {
         <Route path="/Contact" element={<Contact />} />
         <Route path="/Mentions" element={<Mentions />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }
