@@ -74,12 +74,42 @@ function Footer() {
             </div>
             <div className="col-4">
               <h5>Mes dernières réalisations</h5>
-              <p className="fresh">Fresh Food</p>
-              <p className="akira">Restaurant Akira</p>
-              <p className="bienetre">Espace bien-être</p>
-              <p className="seo">SEO</p>
-              <p className="api">Création d'une API</p>
-              <p className="maquette">Maquette d'un site</p>
+              <Link
+                to="portfolio"
+                style={{ textDecoration: "none", color: "white" }}
+              >
+                <p className="fresh">Fresh Food</p>
+              </Link>
+              <Link
+                to="portfolio"
+                style={{ textDecoration: "none", color: "white" }}
+              >
+                <p className="akira">Restaurant Akira</p>
+              </Link>
+              <Link
+                to="portfolio"
+                style={{ textDecoration: "none", color: "white" }}
+              >
+                <p className="bienetre">Espace bien-être</p>
+              </Link>
+              <Link
+                to="portfolio"
+                style={{ textDecoration: "none", color: "white" }}
+              >
+                <p className="seo">SEO</p>
+              </Link>
+              <Link
+                to="protfolio"
+                style={{ textDecoration: "none", color: "white" }}
+              >
+                <p className="api">Création d'une API</p>
+              </Link>
+              <Link
+                to="portfolio"
+                style={{ textDecoration: "none", color: "white" }}
+              >
+                <p className="maquette">Maquette d'un site</p>
+              </Link>
             </div>
           </div>
         </div>
