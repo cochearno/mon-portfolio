@@ -3,7 +3,6 @@ $font-body: "Nunito Sans", sans-serif;
 
 body {
   background-color: $primary-color;
-  height: 1500px;
   font-family: $font-body;
   font-weight: 400;
 }
@@ -232,4 +231,49 @@ h5 {
     font-size: 1rem;
     padding: 0.5rem 1rem;
   }
+}
+.banner {
+  background-image: url(../assets/imagesport/banner.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 30vh;
+}
+.offre {
+  text-align: center;
+  margin-top: 20px;
+}
+.titreoffre {
+  font-size: x-large;
+}
+.titrepresta {
+  font-size: xx-small;
+}
+.blue-line {
+  width: 18%;
+  height: 4px;
+  background-color: #007bff;
+  margin: 20px auto 30px auto;
+  border-radius: 2px;
+}
+.icon-service {
+  text-align: center;
+  font-size: 2rem;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+.container {
+  margin-top: 40px;
+}
+.card {
+  width: 100%;
+  height: 40vh;
+  transition: box-shadow 0.3s ease-in-out;
+  &:hover {
+    background-color: #efefef;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+}
+.bi {
+  margin-top: 40px;
 }
