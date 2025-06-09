@@ -49,7 +49,7 @@ function Services() {
                 <h5 className="card-title">Référencement</h5>
                 <p className="card-text">
                   Lez référencement naturel (SEO) est une technique qui consiste
-                  à optimisr un site web pour le faire remonter dans les
+                  à optimiser un site web pour le faire remonter dans les
                   résultats des moteurs de recherche (Google, Bing, Yahoo, etc
                   ...). L'objectif est d'attirer un maximum de visiteurs
                   qualifiés sur le site.

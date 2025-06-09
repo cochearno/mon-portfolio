@@ -14,30 +14,32 @@ function Footer() {
               <p className="cp">69009 Lyon, France</p>
               <p className="tel">10 20 30 40 50</p>
               <p className="mail"> john.doe@gmail.com</p>
-              <a
-                className="fag"
-                href="https://github.com"
-                target="blank"
-                rel="noopener noreferrer nofollow"
-              >
-                <FaGithub size={25} color="#909590" />
-              </a>
-              <a
-                className="fat"
-                href="https://x.com"
-                target="blank"
-                rel="noopener noreferrer nofollow"
-              >
-                <FaTwitter size={25} color="#909590" />
-              </a>
-              <a
-                className="fal"
-                href="https://linkedin.com"
-                target="blank"
-                rel="noopener noreferrer nofollow"
-              >
-                <FaLinkedin size={25} color="#909590" />
-              </a>
+              <div className="icon">
+                <a
+                  className="fag"
+                  href="https://github.com"
+                  target="blank"
+                  rel="noopener noreferrer nofollow"
+                >
+                  <FaGithub size={25} color="#909590" />
+                </a>
+                <a
+                  className="fat"
+                  href="https://x.com"
+                  target="blank"
+                  rel="noopener noreferrer nofollow"
+                >
+                  <FaTwitter size={25} color="#909590" />
+                </a>
+                <a
+                  className="fal"
+                  href="https://linkedin.com"
+                  target="blank"
+                  rel="noopener noreferrer nofollow"
+                >
+                  <FaLinkedin size={25} color="#909590" />
+                </a>
+              </div>
             </div>
             <div className="col-4">
               <h5>Liens Utiles</h5>
