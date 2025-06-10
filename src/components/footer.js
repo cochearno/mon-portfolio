@@ -98,13 +98,13 @@ function Footer() {
                 to="portfolio"
                 style={{ textDecoration: "none", color: "white" }}
               >
-                <p className="seo">SEO</p>
+                <p className="seo1">SEO</p>
               </Link>
               <Link
                 to="protfolio"
                 style={{ textDecoration: "none", color: "white" }}
               >
-                <p className="api">Création d'une API</p>
+                <p className="api1">Création d'une API</p>
               </Link>
               <Link
                 to="portfolio"
