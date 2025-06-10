@@ -1,11 +1,7 @@
 import React from "react";
+import { Container, Row, Col, Form, Button } from "react-bootstrap";
 
-function Contact() {
-  return (
-    <div>
-      <h1>Me Contacter</h1>
-    </div>
-  );
-}
-
+const Contact = () => {
+  return <></>;
+};
 export default Contact;

@@ -136,6 +136,8 @@ h5 {
 .cp,
 .tel,
 .mail {
+  display: flex;
+  justify-content: left;
   margin-bottom: 0;
   text-align: center;
 }
@@ -145,6 +147,8 @@ h5 {
 .portfolio,
 .contact,
 .mentions {
+  display: flex;
+  justify-content: left;
   margin-bottom: 0;
   text-align: center;
   &:hover {
@@ -159,17 +163,23 @@ h5 {
 .api1,
 .maquette {
   margin-bottom: 0;
-  text-align: center;
+  display: flex;
+  justify-content: left;
   &:hover {
     font-weight: bold;
   }
+}
+h5 {
+  display: flex;
+  justify-content: left;
 }
 .mail {
   margin-bottom: 10px;
 }
 
 .icon {
-  text-align: center;
+  display: flex;
+  justify-content: left;
 }
 .fal :hover {
   color: white;
@@ -321,4 +331,21 @@ h5 {
 }
 .btn-primary:hover {
   background-color: #007bff;
+}
+.ment {
+  margin-top: 30px;
+  text-align: center;
+}
+.blue-line2 {
+  width: 25%;
+  height: 4px;
+  background-color: #007bff;
+  margin: 20px auto 30px auto;
+  border-radius: 2px;
+}
+.accordion {
+  width: 75%;
+}
+.accordion-header {
+  text-transform: uppercase;
 }
