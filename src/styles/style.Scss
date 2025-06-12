@@ -410,16 +410,19 @@ h5 {
   margin-top: 40px;
   width: 95%;
   margin-bottom: 10px;
+  border-color: #00000030;
 }
 .formadresse,
 .formemail,
 .formsujet {
   width: 95%;
   margin-bottom: 10px;
+  border-color: #00000030;
 }
 .formmessage {
   width: 95%;
   height: 25vh;
+  border-color: #00000030;
 }
 .form-btn-container {
   display: flex;
@@ -431,4 +434,8 @@ h5 {
   border-radius: 5%;
   border-color: none;
   border-style: none;
+}
+.coordjd {
+  margin-top: 50px;
+  text-align: left;
 }
