@@ -72,7 +72,8 @@ section {
   box-shadow: 4px 4px 9px lightgray;
   margin-bottom: 50px;
 }
-.colonne {
+.colonne,
+.colonne2 {
   flex: 1 1 100%;
 }
 h3 {
@@ -123,6 +124,13 @@ h5 {
   margin-top: 10px;
   text-align: center;
 }
+.html,
+.css,
+.java,
+.php,
+.react {
+  text-align: left;
+}
 .html {
   margin-top: 25px;
 }
@@ -169,7 +177,7 @@ h5 {
     font-weight: bold;
   }
 }
-h5 {
+.hfoot {
   display: flex;
   justify-content: left;
 }
@@ -192,7 +200,9 @@ h5 {
 }
 @media (min-width: 768px) {
   .colonne.gauche,
-  .colonne.droite {
+  .colonne.droite,
+  .colonne2.gauche2,
+  .colonne2.droite2 {
     flex: 1 1 45%;
   }
 }
@@ -348,4 +358,77 @@ h5 {
 }
 .accordion-header {
   text-transform: uppercase;
+}
+.titrecont {
+  margin-top: 30px;
+  text-align: center;
+}
+.textcont {
+  text-align: center;
+}
+.blue-line3 {
+  width: 25%;
+  height: 4px;
+  background-color: #007bff;
+  margin: 20px auto 30px auto;
+  border-radius: 2px;
+}
+.form {
+  text-align: left;
+}
+.coord {
+  text-align: left;
+  margin: 0;
+}
+.colonne2.gauche2,
+.colonne2.droite2 {
+  width: 100%;
+  flex: 1 1 100%;
+  margin-left: 20px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+.coord::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  height: 2px;
+  width: 100%;
+  background-color: blue;
+}
+.form::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  height: 2px;
+  width: 100%;
+  background-color: blue;
+}
+.formnom {
+  margin-top: 40px;
+  width: 95%;
+  margin-bottom: 10px;
+}
+.formadresse,
+.formemail,
+.formsujet {
+  width: 95%;
+  margin-bottom: 10px;
+}
+.formmessage {
+  width: 95%;
+  height: 25vh;
+}
+.form-btn-container {
+  display: flex;
+  justify-content: center;
+}
+.formbutton {
+  background-color: #007bff;
+  color: white;
+  border-radius: 5%;
+  border-color: none;
+  border-style: none;
 }

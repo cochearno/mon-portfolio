@@ -47,7 +47,7 @@ function Accueil() {
                   aria-valuemax="100"
                 ></div>
               </div>
-              <h5>CSS3 80%</h5>
+              <h5 className="css">CSS3 80%</h5>
               <div className="progress">
                 <div
                   className="progress-bar progress-bar-striped bg-info"
@@ -59,7 +59,7 @@ function Accueil() {
                   aria-valuemax="100"
                 ></div>
               </div>
-              <h5>JAVASCRIPT 70%</h5>
+              <h5 className="java">JAVASCRIPT 70%</h5>
               <div className="progress">
                 <div
                   className="progress-bar progress-bar-striped bg-warning"
@@ -71,7 +71,7 @@ function Accueil() {
                   aria-valuemax="100"
                 ></div>
               </div>
-              <h5>PHP 60%</h5>
+              <h5 className="php">PHP 60%</h5>
               <div className="progress">
                 <div
                   className="progress-bar progress-bar-striped bg-success"
@@ -83,7 +83,7 @@ function Accueil() {
                   aria-valuemax="100"
                 ></div>
               </div>
-              <h5>REACT 50%</h5>
+              <h5 className="react">REACT 50%</h5>
               <div className="progress">
                 <div
                   className="progress-bar progress-bar-striped"

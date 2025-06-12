@@ -9,7 +9,7 @@ function Footer() {
         <div className="container">
           <div className="row">
             <div className="col-4">
-              <h5>John Doe</h5>
+              <h5 className="hfoot">John Doe</h5>
               <p className="adress">40 rue Laure Diebold</p>
               <p className="cp">69009 Lyon, France</p>
               <p className="tel">10 20 30 40 50</p>
@@ -42,7 +42,7 @@ function Footer() {
               </div>
             </div>
             <div className="col-4">
-              <h5>Liens Utiles</h5>
+              <h5 className="hfoot">Liens Utiles</h5>
               <Link
                 to="/Accueil"
                 style={{ textDecoration: "none", color: "white" }}
@@ -75,7 +75,7 @@ function Footer() {
               </Link>
             </div>
             <div className="col-4">
-              <h5>Mes dernières réalisations</h5>
+              <h5 className="hfoot">Mes dernières réalisations</h5>
               <Link
                 to="portfolio"
                 style={{ textDecoration: "none", color: "white" }}
