@@ -1,20 +1,41 @@
 // @ts-nocheck
 import React, { useState } from "react";
 import { Button } from "react-bootstrap";
-import MyModal from "../components/modal";
+import GithubProfileModal from "../components/GithubProfileModal";
+
 function Accueil() {
   const [showModal, setShowModal] = useState(false);
 
-  const handleShow = () => setShowModal(true);
-  const handleClose = () => setShowModal(false);
+  const user = {
+    login: "github-john-doe",
+    name: "John Doe",
+    avatar_url: "https://avatars.githubusercontent.com/u/19842736?v=4",
+    bio: "As we all know, John Doe's identity is unknown. I just wanted to contribute without being known.",
+    public_repos: 1,
+    followers: 16,
+    following: 0,
+    html_url: "https://github.com/github-john-doe",
+  };
   return (
     <>
       <main>
         <div className="accueil">
           <h1>Bonjour, je suis John Doe</h1>
           <h2>Développeur web full stack</h2>
-          <div className="container mt-5">
-            <MyModal show={showModal} handleClose={handleClose} />
+          <div className="container mt-5 text-center">
+            <Button
+              variant="primary"
+              onClick={() => setShowModal(true)}
+              style={{ backgroundColor: "red", borderStyle: "none" }}
+            >
+              En savoir plus
+            </Button>
+
+            <GithubProfileModal
+              show={showModal}
+              handleClose={() => setShowModal(false)}
+              user={user}
+            />
           </div>
         </div>
         <div className="ligne">
