@@ -1,13 +1,21 @@
 // @ts-nocheck
-import React from "react";
+import React, { useState } from "react";
+import { Button } from "react-bootstrap";
+import MyModal from "../components/modal";
 function Accueil() {
+  const [showModal, setShowModal] = useState(false);
+
+  const handleShow = () => setShowModal(true);
+  const handleClose = () => setShowModal(false);
   return (
     <>
       <main>
         <div className="accueil">
           <h1>Bonjour, je suis John Doe</h1>
           <h2>Développeur web full stack</h2>
-          <button className="buttonesp">En Savoir Plus</button>
+          <div className="container mt-5">
+            <MyModal show={showModal} handleClose={handleClose} />
+          </div>
         </div>
         <div className="ligne">
           <section className="presentation">
