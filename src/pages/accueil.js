@@ -1,11 +1,13 @@
 // @ts-nocheck
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Button } from "react-bootstrap";
 import GithubProfileModal from "../components/GithubProfileModal";
 
 function Accueil() {
   const [showModal, setShowModal] = useState(false);
-
+  useEffect(() => {
+    setShowModal();
+  }, []);
   const user = {
     login: "github-john-doe",
     name: "John Doe",
