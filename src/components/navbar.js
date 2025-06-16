@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "../styles/style.scss";
 
 function Navbar() {
@@ -27,54 +27,84 @@ function Navbar() {
         <div className="collapse navbar-collapse" id="navbarResponsive">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <Link
-                className="nav-link active"
+              <NavLink
+                className={({ isActive, isPending }) =>
+                  isPending
+                    ? "nav-link pending"
+                    : isActive
+                    ? "nav-link active"
+                    : "nav-link"
+                }
                 style={{ color: "white", textTransform: "uppercase" }}
                 aria-current="page"
                 to="/Accueil"
               >
                 Accueil
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <Link
-                className="nav-link active"
+              <NavLink
+                className={({ isActive, isPending }) =>
+                  isPending
+                    ? "nav-link pending"
+                    : isActive
+                    ? "nav-link active"
+                    : "nav-link"
+                }
                 style={{ color: "white", textTransform: "uppercase" }}
                 aria-current="page"
                 to="/Services"
               >
                 Services
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <Link
-                className="nav-link active"
+              <NavLink
+                className={({ isActive, isPending }) =>
+                  isPending
+                    ? "nav-link pending"
+                    : isActive
+                    ? "nav-link active"
+                    : "nav-link"
+                }
                 style={{ color: "white", textTransform: "uppercase" }}
                 aria-current="page"
                 to="/Portfolio"
               >
                 Portfolio
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <Link
-                className="nav-link active"
+              <NavLink
+                className={({ isActive, isPending }) =>
+                  isPending
+                    ? "nav-link pending"
+                    : isActive
+                    ? "nav-link active"
+                    : "nav-link"
+                }
                 style={{ color: "white", textTransform: "uppercase" }}
                 aria-current="page"
                 to="/Contact"
               >
                 Contact
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <Link
-                className="nav-link active"
+              <NavLink
+                className={({ isActive, isPending }) =>
+                  isPending
+                    ? "nav-link pending"
+                    : isActive
+                    ? "nav-link active"
+                    : "nav-link"
+                }
                 style={{ color: "white", textTransform: "uppercase" }}
                 aria-current="page"
                 to="Mentions"
               >
                 Mentions Légales
-              </Link>
+              </NavLink>
             </li>
           </ul>
         </div>

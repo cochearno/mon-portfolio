@@ -453,3 +453,13 @@ h5 {
 .avatar {
   height: 20vh;
 }
+.nav-link {
+  color: white;
+  transition: color 0.3s;
+  &.active {
+    color: #007bff !important;
+  }
+  &.pending {
+    color: white;
+  }
+}
